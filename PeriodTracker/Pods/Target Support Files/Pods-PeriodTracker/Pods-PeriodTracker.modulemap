@@ -1,0 +1,6 @@
+framework module Pods_PeriodTracker {
+  umbrella header "Pods-PeriodTracker-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		795487B62698CCB30044A5D9 /* PeriodTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795487B52698CCB30044A5D9 /* PeriodTrackerApp.swift */; };
+		795487B82698CCB30044A5D9 /* DashboardContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795487B72698CCB30044A5D9 /* DashboardContentView.swift */; };
+		795487BA2698CCB40044A5D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 795487B92698CCB40044A5D9 /* Assets.xcassets */; };
+		795487BD2698CCB40044A5D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 795487BC2698CCB40044A5D9 /* Preview Assets.xcassets */; };
+		795487CA2698EC070044A5D9 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795487C92698EC070044A5D9 /* AppConfig.swift */; };
+		795487CC2698F3DF0044A5D9 /* CalendarContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795487CB2698F3DF0044A5D9 /* CalendarContentView.swift */; };
+		795487CE269911E60044A5D9 /* BottomActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795487CD269911E60044A5D9 /* BottomActionView.swift */; };
+		795487D1269912E30044A5D9 /* PeriodManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795487D0269912E30044A5D9 /* PeriodManager.swift */; };
+		79633733269D061500D65E7C /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79633732269D061500D65E7C /* CalendarView.swift */; };
+		79D4B92D269A627F001F9643 /* DateEntryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D4B92C269A627F001F9643 /* DateEntryModel.swift */; };
+		79D4B92F269B9B5A001F9643 /* TipsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D4B92E269B9B5A001F9643 /* TipsContentView.swift */; };
+		79D4B933269BA444001F9643 /* NativeAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79D4B931269BA444001F9643 /* NativeAdView.xib */; };
+		79D4B934269BA444001F9643 /* NativeAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D4B932269BA444001F9643 /* NativeAdView.swift */; };
+		79D4B936269BA4C5001F9643 /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79D4B935269BA4C5001F9643 /* Launch.storyboard */; };
+		ECF3524335E0F8BE494B2A37 /* Pods_PeriodTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D671D9CFCDE3BD4B318210 /* Pods_PeriodTracker.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17CF25ED0E726B12E12AFC19 /* Pods-PeriodTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeriodTracker.release.xcconfig"; path = "Target Support Files/Pods-PeriodTracker/Pods-PeriodTracker.release.xcconfig"; sourceTree = "<group>"; };
+		26D671D9CFCDE3BD4B318210 /* Pods_PeriodTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PeriodTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		795487B22698CCB30044A5D9 /* PeriodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeriodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		795487B52698CCB30044A5D9 /* PeriodTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodTrackerApp.swift; sourceTree = "<group>"; };
+		795487B72698CCB30044A5D9 /* DashboardContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardContentView.swift; sourceTree = "<group>"; };
+		795487B92698CCB40044A5D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		795487BC2698CCB40044A5D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		795487BE2698CCB40044A5D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		795487C92698EC070044A5D9 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		795487CB2698F3DF0044A5D9 /* CalendarContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarContentView.swift; sourceTree = "<group>"; };
+		795487CD269911E60044A5D9 /* BottomActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomActionView.swift; sourceTree = "<group>"; };
+		795487D0269912E30044A5D9 /* PeriodManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodManager.swift; sourceTree = "<group>"; };
+		79633732269D061500D65E7C /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		79D4B92C269A627F001F9643 /* DateEntryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateEntryModel.swift; sourceTree = "<group>"; };
+		79D4B92E269B9B5A001F9643 /* TipsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsContentView.swift; sourceTree = "<group>"; };
+		79D4B931269BA444001F9643 /* NativeAdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NativeAdView.xib; sourceTree = "<group>"; };
+		79D4B932269BA444001F9643 /* NativeAdView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeAdView.swift; sourceTree = "<group>"; };
+		79D4B935269BA4C5001F9643 /* Launch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
+		F26A1357DB8DA6E9DE0E5E9D /* Pods-PeriodTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeriodTracker.debug.xcconfig"; path = "Target Support Files/Pods-PeriodTracker/Pods-PeriodTracker.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		795487AF2698CCB30044A5D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF3524335E0F8BE494B2A37 /* Pods_PeriodTracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		346A6EAC782D608A5DB68943 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26D671D9CFCDE3BD4B318210 /* Pods_PeriodTracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		795487A92698CCB30044A5D9 = {
+			isa = PBXGroup;
+			children = (
+				795487B42698CCB30044A5D9 /* PeriodTracker */,
+				795487B32698CCB30044A5D9 /* Products */,
+				9A2201D3343FDEEDE13AAAA1 /* Pods */,
+				346A6EAC782D608A5DB68943 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		795487B32698CCB30044A5D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				795487B22698CCB30044A5D9 /* PeriodTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		795487B42698CCB30044A5D9 /* PeriodTracker */ = {
+			isa = PBXGroup;
+			children = (
+				79D4B930269BA42D001F9643 /* Ads */,
+				795487C52698D3AE0044A5D9 /* Flows */,
+				79D4B92B269A6268001F9643 /* Models */,
+				795487CF269912CB0044A5D9 /* Manager */,
+				795487C42698D37F0044A5D9 /* Lifecycle */,
+				795487C82698EBF50044A5D9 /* Configuration */,
+				795487B92698CCB40044A5D9 /* Assets.xcassets */,
+				795487BE2698CCB40044A5D9 /* Info.plist */,
+				79D4B935269BA4C5001F9643 /* Launch.storyboard */,
+				795487BB2698CCB40044A5D9 /* Preview Content */,
+			);
+			path = PeriodTracker;
+			sourceTree = "<group>";
+		};
+		795487BB2698CCB40044A5D9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				795487BC2698CCB40044A5D9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		795487C42698D37F0044A5D9 /* Lifecycle */ = {
+			isa = PBXGroup;
+			children = (
+				795487B52698CCB30044A5D9 /* PeriodTrackerApp.swift */,
+			);
+			path = Lifecycle;
+			sourceTree = "<group>";
+		};
+		795487C52698D3AE0044A5D9 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				795487B72698CCB30044A5D9 /* DashboardContentView.swift */,
+				795487CB2698F3DF0044A5D9 /* CalendarContentView.swift */,
+				79D4B92E269B9B5A001F9643 /* TipsContentView.swift */,
+				795487CD269911E60044A5D9 /* BottomActionView.swift */,
+				79633732269D061500D65E7C /* CalendarView.swift */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		795487C82698EBF50044A5D9 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				795487C92698EC070044A5D9 /* AppConfig.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		795487CF269912CB0044A5D9 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				795487D0269912E30044A5D9 /* PeriodManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		79D4B92B269A6268001F9643 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				79D4B92C269A627F001F9643 /* DateEntryModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		79D4B930269BA42D001F9643 /* Ads */ = {
+			isa = PBXGroup;
+			children = (
+				79D4B932269BA444001F9643 /* NativeAdView.swift */,
+				79D4B931269BA444001F9643 /* NativeAdView.xib */,
+			);
+			path = Ads;
+			sourceTree = "<group>";
+		};
+		9A2201D3343FDEEDE13AAAA1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F26A1357DB8DA6E9DE0E5E9D /* Pods-PeriodTracker.debug.xcconfig */,
+				17CF25ED0E726B12E12AFC19 /* Pods-PeriodTracker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		795487B12698CCB30044A5D9 /* PeriodTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 795487C12698CCB40044A5D9 /* Build configuration list for PBXNativeTarget "PeriodTracker" */;
+			buildPhases = (
+				E0D16383CF5DBEB5A496C73D /* [CP] Check Pods Manifest.lock */,
+				795487AE2698CCB30044A5D9 /* Sources */,
+				795487AF2698CCB30044A5D9 /* Frameworks */,
+				795487B02698CCB30044A5D9 /* Resources */,
+				FEEC6FEF11F7B6F6A42C70FC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeriodTracker;
+			productName = PeriodTracker;
+			productReference = 795487B22698CCB30044A5D9 /* PeriodTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		795487AA2698CCB30044A5D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					795487B12698CCB30044A5D9 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 795487AD2698CCB30044A5D9 /* Build configuration list for PBXProject "PeriodTracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 795487A92698CCB30044A5D9;
+			productRefGroup = 795487B32698CCB30044A5D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				795487B12698CCB30044A5D9 /* PeriodTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		795487B02698CCB30044A5D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				795487BD2698CCB40044A5D9 /* Preview Assets.xcassets in Resources */,
+				79D4B933269BA444001F9643 /* NativeAdView.xib in Resources */,
+				795487BA2698CCB40044A5D9 /* Assets.xcassets in Resources */,
+				79D4B936269BA4C5001F9643 /* Launch.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E0D16383CF5DBEB5A496C73D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PeriodTracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEEC6FEF11F7B6F6A42C70FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PeriodTracker/Pods-PeriodTracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PeriodTracker/Pods-PeriodTracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PeriodTracker/Pods-PeriodTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		795487AE2698CCB30044A5D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79633733269D061500D65E7C /* CalendarView.swift in Sources */,
+				79D4B92D269A627F001F9643 /* DateEntryModel.swift in Sources */,
+				795487B82698CCB30044A5D9 /* DashboardContentView.swift in Sources */,
+				795487CA2698EC070044A5D9 /* AppConfig.swift in Sources */,
+				79D4B934269BA444001F9643 /* NativeAdView.swift in Sources */,
+				795487D1269912E30044A5D9 /* PeriodManager.swift in Sources */,
+				795487CC2698F3DF0044A5D9 /* CalendarContentView.swift in Sources */,
+				795487B62698CCB30044A5D9 /* PeriodTrackerApp.swift in Sources */,
+				795487CE269911E60044A5D9 /* BottomActionView.swift in Sources */,
+				79D4B92F269B9B5A001F9643 /* TipsContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		795487BF2698CCB40044A5D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		795487C02698CCB40044A5D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		795487C22698CCB40044A5D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F26A1357DB8DA6E9DE0E5E9D /* Pods-PeriodTracker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PeriodTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = H7Y45777YP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PeriodTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SpaceMonkeyLabs.PeriodTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		795487C32698CCB40044A5D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17CF25ED0E726B12E12AFC19 /* Pods-PeriodTracker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PeriodTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = H7Y45777YP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PeriodTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SpaceMonkeyLabs.PeriodTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		795487AD2698CCB30044A5D9 /* Build configuration list for PBXProject "PeriodTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				795487BF2698CCB40044A5D9 /* Debug */,
+				795487C02698CCB40044A5D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		795487C12698CCB40044A5D9 /* Build configuration list for PBXNativeTarget "PeriodTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				795487C22698CCB40044A5D9 /* Debug */,
+				795487C32698CCB40044A5D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 795487AA2698CCB30044A5D9 /* Project object */;
+}
